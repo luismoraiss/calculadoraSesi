@@ -11,7 +11,7 @@ document.getElementById('calculate').addEventListener('click', function(){
 
     }
 
-    const total = ((av1 *25) + (av2*25) + (avt*50) / 100
+    const total = ((av1 *25) + (av2*25) + (avt*50)) / 100
    
     document.getElementById('total').innerHTML = (total)
 });
